@@ -115,4 +115,4 @@ print(artist_last_names)
 paintings = cbind.data.frame(painting_titles, artist_first_names, artist_last_names)
 colnames(paintings) = c("title", "first_name", "last_name")
 
-write.csv(paintings, "../tables/paintings.csv", row.names = FALSE)
+# write.csv(paintings, "./tables/paintings.csv", row.names = FALSE)
